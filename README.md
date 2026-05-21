@@ -7,7 +7,7 @@ Bu proje, etkinliklerin yönetimi ve planlanması için tasarlanmış bir backen
 ## 🛠️ Kullanılan Teknolojiler
 
 ### Backend
-- **Java 17** - Programlama dili
+- **Java 26** - Programlama dili
 - **Spring Boot 4.0.6** - Web framework
 - **Spring Data JPA** - ORM ve veritabanı işlemleri
 - **Spring Validation** - Form validasyonu
@@ -27,7 +27,7 @@ Bu proje, etkinliklerin yönetimi ve planlanması için tasarlanmış bir backen
 ## 📦 Kurulum Adımları
 
 ### Gereksinimler
-- Java 17 veya üzeri
+- Java 26 veya üzeri
 - Maven 3.6+
 - Git
 
