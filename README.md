@@ -53,7 +53,7 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-Uygulama varsayılan olarak **http://localhost:8080** adresinde başlatılacaktır.
+Uygulama varsayılan olarak **http://localhost:8085** adresinde başlatılacaktır.
 
 ### IDE ile Çalıştırma (IntelliJ IDEA / Eclipse)
 
@@ -78,7 +78,7 @@ Frontend uygulaması ayrı bir repository'de yer almaktadır. Frontend kurulumu 
 
 1. Frontend repository'sini clone edin
 2. İlgili README dosyasındaki talimatları takip edin
-3. Frontend uygulaması backend API'si ile bağlanacaktır (varsayılan: http://localhost:8080)
+3. Frontend uygulaması backend API'si ile bağlanacaktır (varsayılan: http://localhost:8085)
 
 **Not:** Frontend ve backend'in aynı cihazda çalışırken CORS ayarlamaları yapılması gerekebilir.
 
@@ -86,8 +86,8 @@ Frontend uygulaması ayrı bir repository'de yer almaktadır. Frontend kurulumu 
 
 API dokümantasyonuna erişmek için aşağıdaki URL'yi kullanın:
 
-- **Swagger UI:** http://localhost:8080/swagger-ui.html
-- **OpenAPI JSON:** http://localhost:8080/v3/api-docs
+- **Swagger UI:** http://localhost:8085/swagger-ui.html
+- **OpenAPI JSON:** http://localhost:8085/v3/api-docs
 
 Swagger UI'da tüm API endpoint'lerini görebilir ve test edebilirsiniz.
 
@@ -100,7 +100,7 @@ Proje geliştirme ve test amaçlı olarak **H2 in-memory veritabanı** kullanmak
 **H2 Console Erişimi:**
 
 ```
-URL: http://localhost:8080/h2-console
+URL: http://localhost:8085/h2-console
 ```
 
 **Bağlantı Ayarları:**
